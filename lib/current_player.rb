@@ -11,7 +11,7 @@ end
 
 def current_player(board)
   counter = 0 
-  board.each do  
+  while counter <= board.length - 1 
     counter += 1 
     if counter % 2 == 0 
       return "X" 
